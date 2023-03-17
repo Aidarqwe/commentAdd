@@ -1,0 +1,55 @@
+.comments-block {
+    margin-top: 20px;
+}
+
+.add-comment-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.add-comment-form input,
+.add-comment-form textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.add-comment-form button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.add-comment-form button:hover {
+    background-color: #2980b9;
+}
+
+.comments-list li {
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    position: relative;
+}
+
+.comments-list li .delete-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}
+
+.comments-list li .like-button {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    cursor: pointer;
+    color: #ccc;
+}
+
+.comments-list li .like-button.active {
+    color: #f44336;
+}
